@@ -6,8 +6,8 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
-    /* max-width: 1060px;
-    margin: 0 auto; */
+    max-width: 1060px;
+    margin: 0 auto;
     
 }
 .nav-bar-contant{
