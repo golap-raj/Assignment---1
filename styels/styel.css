@@ -140,3 +140,49 @@ main{
     border-style: none;
     border-radius: 16px;
 }
+
+.main-section{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+.main-img img{
+    border-radius: 24px;
+}
+.main-title{
+    font-size: 28px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+
+
+}
+
+.main-date{
+
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+.main-discription{
+
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+
+}
+.main-button{
+    background-color: rgb(0, 106, 80);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 9px 18px;
+    color: rgb(255, 255, 255);
+    border: none;
+   
+}
+.main-section-2{
+    
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
