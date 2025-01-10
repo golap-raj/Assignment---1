@@ -6,8 +6,8 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
-    max-width: 1060px;
-    margin: 0 auto;
+    /* max-width: 1060px;
+    margin: 0 auto; */
     
 }
 .nav-bar-contant{
@@ -63,4 +63,80 @@ body{
     padding: 17px 34px;
     border-radius: 8px;
     border-style: none;
+}
+main{
+   padding: 10px;
+}
+.future-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.Future-discription{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+.items{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+  
+}
+
+.card-1{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+    border-radius: 10px;
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.card-2{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+    border-radius: 10px;
+    background-color: rgb(198, 228, 214);
+}
+.card-3{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+    border-radius: 10px;
+    background-color: rgb(247, 235, 207);
+}
+.card-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+
+}
+.card-discription{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+
+}
+.card-button-1{
+    background-color: rgb(84, 144, 245);
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 11px 20px;
+    border-style: none;
+    border-radius: 16px;
+}
+.card-button-2{
+    background-color: rgb(9, 161, 92);
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 11px 20px;
+    border-style: none;
+    border-radius: 16px;
+}
+.card-button-3{
+    background-color: rgb(255, 194, 57);
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 11px 20px;
+    border-style: none;
+    border-radius: 16px;
 }
