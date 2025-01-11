@@ -24,6 +24,10 @@ body{
     color: rgb(0, 106, 80);
     
 }
+.navbar-button:hover{
+    background-color: yellowgreen;
+    color: blue;
+}
 .button-div{
     align-items: center;
     display: flex;
