@@ -64,6 +64,10 @@ body{
     border-radius: 8px;
     border-style: none;
 }
+.banner-button:hover{
+    background-color: aquamarine;
+    color: black;
+}
 main{
    padding: 10px;
 }
@@ -122,6 +126,10 @@ main{
     border-style: none;
     border-radius: 16px;
 }
+.card-button-1:hover{
+    background-color: brown;
+    color: black;
+}
 .card-button-2{
     background-color: rgb(9, 161, 92);
     font-size: 16px;
@@ -131,6 +139,10 @@ main{
     border-style: none;
     border-radius: 16px;
 }
+.card-button-2:hover{
+    background-color: blueviolet;
+    color: yellow;
+}
 .card-button-3{
     background-color: rgb(255, 194, 57);
     font-size: 16px;
@@ -139,6 +151,9 @@ main{
     padding: 11px 20px;
     border-style: none;
     border-radius: 16px;
+}
+.card-button-3:hover{
+    background-color: black;
 }
 
 .main-section{
@@ -189,9 +204,83 @@ main{
     border: none;
    
 }
+.main-button:hover{
+    background-color: aqua;
+    color: red;
+
+}
 .main-section-2{
     
     margin-top: 50px;
     display: flex;
     gap: 30px;
+}
+
+
+.last-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.last-duscription{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+}
+.taka-card{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 30px;
+}
+.taka-1{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 20px;
+    padding: 15px 25px;
+}
+.taka-1:hover{
+    background-color: blue;
+}
+.taka-2{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 15px 25px;
+    border-radius: 16px;
+    background-color: rgb(198, 228, 214);
+}
+.taka-2:hover{
+    background-color: burlywood;
+}
+.taka-3{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 15px 25px;
+    border-radius: 16px;
+}
+.taka-3:hover{
+    background-color: chartreuse;
+}
+.taka-4{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 15px 25px;
+    border-radius: 16px;
+}
+.taka-4:hover{
+    background-color: cyan;
+}
+.center{
+    text-align: center;
+    margin-top: 30px;
+    color: rgba(14, 14, 14, 0.3);
+   
+    
+   
+}
+.center input{
+    padding: 40px 450px;
+    font-size: 20px;
+    font-weight: 400;
 }
