@@ -275,6 +275,7 @@ main{
     text-align: center;
     margin-top: 30px;
     color: rgba(14, 14, 14, 0.3);
+    
    
     
    
@@ -283,4 +284,10 @@ main{
     padding: 40px 450px;
     font-size: 20px;
     font-weight: 400;
+  
+}
+.center input:hover{
+    background-color: yellowgreen;
+    color: red;
+  
 }
